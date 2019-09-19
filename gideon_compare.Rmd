@@ -55,6 +55,7 @@ compare_u<-merge(g_u,all2,by= "sp_z")
 dim(compare_u)
 ```
 
+#the new spp-disease pairs 
 ```{r}
 missing<-g_u[g_u$sp_z%in%all2$sp_z==F,]
 dim(missing)
