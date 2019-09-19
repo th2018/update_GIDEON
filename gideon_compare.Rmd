@@ -3,6 +3,7 @@ title: "GIDEON"
 output: html_document
 ---
 
+#New file
 ```{r}
 g<-read.csv("/Users/owner/Downloads/2019-08-29 22_38_27.csv",header = F)
 head(g)
@@ -16,6 +17,7 @@ head(g$V2
      )
 ```
 
+#old file
 ```{r}
 all<-read.csv("/Users/owner/Downloads/allmammGID-clean20190812.csv")
 head(all)
